@@ -1,7 +1,9 @@
 package pkg1
 
-import "fmt"
+import (
+	"sample-app/pkg2"
+)
 
 func Print() {
-	fmt.Println("pkg1")
+	pkg2.Print()
 }
